@@ -9,9 +9,7 @@ import HeaderMenuButton from './HeaderMenuButton';
 const Header = (args) => {
     return (
         <div className="header">
-        
             <img src={process.env.PUBLIC_URL + '/assets/ksr-logo-sans-fond.png'} alt="Icon" className="icon" />
-        
             <div className="text-container">
                 <div className='title'>
                     <h1>KARATE SHOTOKAN RUNGIS</h1>
