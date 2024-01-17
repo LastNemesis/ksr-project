@@ -1,12 +1,17 @@
+// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// PAGES/COMPONENTS
+import HomePage from './pages/HomePage';
 
+// MAIN
 const App = () => {
   return (
     <Router>
-      <Route path="/" exact component={HomePage} />
-      {/* Add more routes for additional pages */}
+      <Routes>
+        <Route path="/" element={<HomePage/>} />
+        {/* Add more routes for additional pages */}
+      </Routes>
     </Router>
   );
 };
