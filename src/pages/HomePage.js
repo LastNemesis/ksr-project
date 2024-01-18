@@ -62,7 +62,7 @@ const HomePage = () => {
                             </div>
                             <div className='main-activities-body-part-content'>
                                 <div className='main-activities-body-part-content-text'>
-                                    Une pratique pour tous... <p><br/></p>Un sport complet, en toute sécurité
+                                    Une pratique pour tous... <p>Un sport complet, en toute sécurité</p>
                                 </div>
                                 <div className='main-activities-body-part-content-days'>
                                     <p><span>Lundi</span> (à partir de 18H00)</p>

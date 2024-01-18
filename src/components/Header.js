@@ -11,7 +11,7 @@ const Header = (args) => {
         <div className="header">
             <img src={process.env.PUBLIC_URL + '/assets/ksr-logo-sans-fond.png'} alt="Icon" className="icon" />
             <div className="text-container">
-                <div className='title'>
+                <div className='text-container-title'>
                     <h1>KARATE SHOTOKAN RUNGIS</h1>
                     <h2>L'Esprit d'évolution</h2>
                 </div>

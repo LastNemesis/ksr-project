@@ -1,0 +1,16 @@
+/* =============================================================== LARGE SCREENS */
+@media screen and (min-width: 1900px) {
+  
+}
+/* =============================================================== LARGE-MEDIUM SCREENS */
+@media screen and (max-width: 1899px) and (min-width: 1024px){
+  
+}
+/* =============================================================== MEDIUM SCREENS */
+@media screen and (max-width: 1023px) and (min-width: 768px){
+  
+}
+/* =============================================================== SMALL SCREENS */
+@media screen and (max-width: 767px){
+
+}
